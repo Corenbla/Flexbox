@@ -1,66 +1,65 @@
 * {
     margin:  0;
     padding: 0;}
-main {
-    display: flex;}
+.flex {
+    display: flex;
+}
+.half-height {
+    height: 50%
+}
+.half-width {
+    width: 50%
+}
+.third-height {
+    height: calc(100%/3);
+}
+.wrap {
+    flex-wrap: wrap;
+}
 .page {
     height: 100vh;
     width: 100vw;
-    display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
 main {
     height: 500px;
     width: 500px;
     border: 5px solid black;
-    box-sizing: border-box;}
-/* -----Left----- */
-.left {
-    width: 50%;
-    height: 100%;}
-.left .upper {
-    height: 50%;}
-.left .lower {
-    height: 50%;
-    display: flex;
-    flex-wrap: wrap;}
-.left .lower .tiny {
-    height: 50%;
-    width: 50%;}
-/* -----Right----- */
-.right {
-    width: 50%;
-    height: 100%;}
-.haut, .millieu, .bas {
-    height: calc(100% /3);}
-.haut {
-    display: flex;
-    flex-wrap: nowrap;}
-.petit {
-    width: 50%;}
-/* -----Borders----- */
-.red, .lime, .sky, .haut, .smoke {
+    box-sizing: border-box;
+}
+.red, .lime, .sky, .yellow, .salmon, .smoke {
     border-bottom: black 5px solid;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
 .red, .yellow, .lime, .wine, .sky, .orange {
     border-right: black 5px solid;
-    box-sizing: border-box;}
-/* -----Colors----- */
+    box-sizing: border-box;
+}
 .red {
-    background-color: red;}
+    background-color: red;
+}
 .yellow {
-    background-color: yellow;}
+    background-color: yellow;
+}
 .salmon {
-    background-color: salmon;}
+    background-color: salmon;
+}
 .smoke {
-    background-color: dimgrey;}
+    background-color: dimgrey;
+}
 .grape {
-    background-color: rebeccapurple;}
+    background-color: rebeccapurple;
+}
 .lime {
-    background-color: limegreen;}
+    background-color: limegreen;
+}
 .sky {
-    background-color: deepskyblue;}
+    background-color: deepskyblue;
+}
 .wine {
-    background-color: #99004D;}
+    background-color: #99004D;
+}
 .orange {
-    background-color: orangered;}
+    background-color: orangered;
+}
