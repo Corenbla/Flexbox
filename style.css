@@ -13,8 +13,8 @@ main {
     align-items: center;
 }
 main {
-    height: 500px;
-    width: 500px;
+    height: 100vh;
+    width: 100vw;
     border: 5px solid black;
     box-sizing: border-box;
 }
